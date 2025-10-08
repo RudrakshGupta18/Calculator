@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="Calculator">
+        <input type="text" id="Display"><br>
+        <div id="buttons_container">
+        <button class="button" id="C" onclick="
+        document.querySelector('#Display').value=''
+        ">C</button>
+        <button class="button" id="operator" onclick="
+        document.querySelector('#Display').value+='/'
+        ">/</button><br>
+        <button class="button" id="num" onclick="
+        document.querySelector('#Display').value+='7'
+        ">7</button>
+        <button class="button" id="num" onclick="
+        document.querySelector('#Display').value+='8'
+        ">8</button>
+        <button class="button" id="num" onclick="
+        document.querySelector('#Display').value+='9'
+        ">9</button><br>
+        <button class="button" id="operator" onclick="
+        document.querySelector('#Display').value+='*'
+        ">*</button><br>
+        <button class="button" id="num" onclick="
+        document.querySelector('#Display').value+='4'
+        ">4</button>
+        <button class="button" id="num" onclick="
+        document.querySelector('#Display').value+='5'
+        ">5</button>
+        <button class="button" id="num" onclick="
+        document.querySelector('#Display').value+='6'
+        ">6</button><br>
+        <button class="button" id="operator" onclick="
+        document.querySelector('#Display').value+='+'
+        ">+</button><br>
+        <button class="button" id="num" onclick="
+        document.querySelector('#Display').value+='1'
+        ">1</button>
+        <button class="button" id="num" onclick="
+        document.querySelector('#Display').value+='2'
+        ">2</button>
+        <button class="button" id="num" onclick="
+        document.querySelector('#Display').value+='3'
+        ">3</button><br>
+        <button class="button" id="operator" onclick="
+        document.querySelector('#Display').value+='-'
+        ">-</button><br>
+        <button class="button" id="num" onclick="
+        document.querySelector('#Display').value+='0'
+        ">0</button>
+        <button class="button" id="equal" onclick="
+        document.querySelector('#Display').value=eval(document.querySelector('#Display').value)
+        ">=</button>
+        </div>
+        
+
+    </div>
+
+<script src="scripts/index.js"></script>
+</body>
+</html>
