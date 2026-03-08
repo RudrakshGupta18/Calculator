@@ -1,2 +1,2 @@
 # Calculator
-Simple Calculator with the hep of JS.
+Simple Calculator with the help of JS.
